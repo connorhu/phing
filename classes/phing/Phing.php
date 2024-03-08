@@ -161,6 +161,8 @@ class Phing
     /** Whether or not output to the log is to be unadorned. */
     private $emacsMode = false;
 
+    private /*?string*/ $searchForThis;
+
     /**
      * Entry point allowing for more options from other front ends.
      *
